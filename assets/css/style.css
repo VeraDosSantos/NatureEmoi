@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* création des colonnes en % avec 6 chiffres après la virgule*/
+.col_1 {width: 8.333333%;}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.333333%; text-align: center;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.myNav{
+    padding-top: 40px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 10%;
+}
+
+.scroll{
+    color: aliceblue;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.delivery-icon{
+    color: rgb(17, 168, 47);
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+.line{
+    height: 8px;
+    width: 50px;
+    background-color:  rgb(17, 168, 47);
+}
+h2{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.footerCard{
+    padding-top: 600px;
+    color: black;
+}
+
+.footerCard p {
+    background-color: rgba(240, 248, 255, 0.951);
+}
+
+.img1h{
+    background-image: url(../img/nos_meilleures_ventes/1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.img2h{
+    background-image: url(../img/nos_meilleures_ventes/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.img3h{
+    background-image: url(../img/nos_meilleures_ventes/3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.img4h{
+    background-image: url(../img/nos_meilleures_ventes/4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
